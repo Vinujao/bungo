@@ -1,0 +1,45 @@
+body
+{
+  color: white;
+  background-image: linear-gradient(to left bottom, #f4ff00, #ffc400, #ff8152, #ff468f, #f340c6, #c365ea, #fd7e7e, #d63e3e, #00abff, #00c0ee, #00d0c2, #20da91);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+#header{
+  font-size: 30px;
+  width:40%;
+  letter-spacing:5px;
+  border-radius: 13cm;
+  
+
+}
+label{
+  
+  background: #001aff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00ff40, #0050e6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00ff40, #0050e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 25px;
+}
